@@ -1,0 +1,12 @@
+D:\ProjectWeb\Web_KTX\LoggerService\bin\Debug\net7.0\LoggerService.deps.json
+D:\ProjectWeb\Web_KTX\LoggerService\bin\Debug\net7.0\LoggerService.dll
+D:\ProjectWeb\Web_KTX\LoggerService\bin\Debug\net7.0\LoggerService.pdb
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\LoggerService.csproj.AssemblyReference.cache
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfoInputs.cache
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfo.cs
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CoreCompileInputs.cache
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\LoggerService.dll
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\refint\LoggerService.dll
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\LoggerService.pdb
+D:\ProjectWeb\Web_KTX\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll
