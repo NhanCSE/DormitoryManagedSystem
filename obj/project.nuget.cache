@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RTy3DKu57mPYpr/A38jbD8m2TnZmWBcz5CC7MXws0QCAhpF106p9ITRaJdp5UgB1oIHK1cLFZ7Wkd4wb3GOjdQ==",
+  "dgSpecHash": "Xu+LeNTfJfQOME792WXgCC5/uuO0LZldjBpcQSmcx+gO+sxRUsnD02Tpx74vofqO0jNZW4Zz4iulpAl0M7dx7g==",
   "success": true,
   "projectFilePath": "D:\\ProjectWeb\\Web_KTX\\LoggerService\\LoggerService.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\nlog\\5.1.0\\nlog.5.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
