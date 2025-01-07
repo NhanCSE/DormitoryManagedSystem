@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "U3d12KmG4NMUZnW+lS7Cs/WSwfHNF1/j275gDdgpBXA=",
+  "Hash": "nipbTSbcNVCRbPI4hQ+8OIPcqg3JAVOtJ9oM2BXcZ1w=",
   "Source": "BE",
   "BasePath": "_content/BE",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BE\\wwwroot",
+      "Source": "BE",
+      "ContentRoot": "D:\\ProjectWeb\\Web_KTX\\BE\\wwwroot\\",
+      "BasePath": "_content/BE",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

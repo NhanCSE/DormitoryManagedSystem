@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectWeb\\Web KTX\\BE\\BE.csproj": {}
+    "D:\\ProjectWeb\\Web_KTX\\BE\\BE.csproj": {}
   },
   "projects": {
-    "D:\\ProjectWeb\\Web KTX\\BE\\BE.csproj": {
+    "D:\\ProjectWeb\\Web_KTX\\BE\\BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectWeb\\Web KTX\\BE\\BE.csproj",
+        "projectUniqueName": "D:\\ProjectWeb\\Web_KTX\\BE\\BE.csproj",
         "projectName": "BE",
-        "projectPath": "D:\\ProjectWeb\\Web KTX\\BE\\BE.csproj",
+        "projectPath": "D:\\ProjectWeb\\Web_KTX\\BE\\BE.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectWeb\\Web KTX\\BE\\obj\\",
+        "outputPath": "D:\\ProjectWeb\\Web_KTX\\BE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ProjectWeb\\Web_KTX\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "D:\\ProjectWeb\\Web_KTX\\LoggerService\\LoggerService.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -65,6 +69,67 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProjectWeb\\Web_KTX\\LoggerService\\LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProjectWeb\\Web_KTX\\LoggerService\\LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "D:\\ProjectWeb\\Web_KTX\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectWeb\\Web_KTX\\LoggerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
